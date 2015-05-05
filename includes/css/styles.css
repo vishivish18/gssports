@@ -8,21 +8,34 @@ Updated: August 2013
 Notes:	 Hand coded for Udemy.com
 
 */
+
+@font-face {
+    font-family: newFont;
+    src: url(includes/fonts/GSFONTT.ttf);
+}
+
+body{
+     font-family: "newFont", sans-serif!important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    
+}
+
+
+
 .navbar{ 
-    background-color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 80px;
+    padding-top:15px;
+    padding-right:285px;
+    
 }
 
-
-#circle
-{
-  width: 500px;
-    height: 500px;
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-     background-image: url("/images/download.png");
+.navbar-brand{
+    color: white;
 
 }
+
 /* --------------------------------------
    Layout
    -------------------------------------- */
@@ -32,16 +45,7 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Typography
    -------------------------------------- */
-@font-face {
-    font-family: newFont;
-    src: url(includes/fonts/ASENINE.ttf);
-}
 
-body{
- -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    
-}
 .well .page-header{
   margin-top: 0;
 }
