@@ -14,27 +14,53 @@ Notes:	 Hand coded for Udemy.com
     src: url(includes/fonts/GSFONTT.ttf);
 }
 
-body{
-     font-family: "newFont", sans-serif!important;
+body
+{
+	
+	font-size:20px; 
+    font-family: 'newFont', sans-serif!important;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
     
 }
-
-
-
-.navbar{ 
-    background-color: rgba(0, 0, 0, 0.5);
+/*///////////////////////////////////////*/
+/*////////// Navigation /////////////////*/
+/*///////////////////////////////////////*/
+.navbar
+{
+	
+	border:none;
+    background-color: rgba(0, 0, 0, 0.9);
     min-height: 80px;
-    padding-top:15px;
-    padding-right:285px;
-    
+    padding-right:25px;
 }
-
 .navbar-brand{
-    color: white;
+font-size: 32px;
+margin-top: 15px;
 
 }
+.navbar-nav
+{
+	margin-top: 15px;
+    font-size: 15px;   
+}
+
+.navbar-nav>li
+{
+	padding-left: 35px;
+}
+
+.navbar-toggle
+{
+	margin-top:20px;
+}
+
+.navbar-collapse
+{
+	border:none;
+}
+
 
 /* --------------------------------------
    Layout
