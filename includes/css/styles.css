@@ -98,6 +98,7 @@ footer {
 	padding: 40px;
 }
 
+
 a {
   color: #FFF;
   text-decoration: none;
@@ -107,14 +108,14 @@ list-style-type: none;
 }
 
 
+#quicklinks-footer{
+text-align:justify;
+}
 
 #followus-footer{
-text-align: ;left;
+text-align: left;
 }
 
-#quicklinks-footer{
-text-align:center;
-}
 /* --------------------------------------
    Layout
    -------------------------------------- */
