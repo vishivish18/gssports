@@ -161,6 +161,35 @@ text-align: left;
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+
+#myCarousel {
+	margin-top: 0px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../images/Crossing_Republik.JPG') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/City_Center.JPG') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/Hoshiyarpur.JPG') top center no-repeat;
+}
+
+
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
@@ -174,7 +203,9 @@ text-align: left;
 div.desc {
 		font-size: 14px;
 	}
-    
+    #side-navpanel{
+    display: none;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -182,6 +213,10 @@ div.desc {
     div.desc {
 		font-size: 14px;
 	}
+    #side-navpanel{
+    display: none;
+    }
+    
 }
     
 
