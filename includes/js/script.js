@@ -10,9 +10,17 @@ Notes:	 Hand coded for Udemy.com
 */
 
 var $sidenav = $('.sidenav');
+var $navbar = $('.navbar');
+
+
 $(document).scroll(function() {
     $sidenav.css({display: $(this).scrollTop()>200 ? "block":"none"});
+    //$navbar.css({height: $(this).scrollTop()>200 ? "40px":"80px"});
+    
     if ($('body').height() -100 <= ($(window).height() + $(window).scrollTop())) {
            $('.sidenav').hide();
        }
+    
+    
+    
 });    

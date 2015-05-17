@@ -84,7 +84,7 @@ font-size: 72px;
 {
 	
 	border:none;
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgba(0, 0, 0,0.9);
     min-height: 80px;
     padding-right:25px;
 }
@@ -124,17 +124,26 @@ color: #FFF;
 	border:none;
 }
 
+.section-header{
+margin-top: 90px;
+font-size: 30px;
+text-decoration: underline;
+z-index: -1;
+    
+}
+
 .sidenav{
 
 right:22%;
 top:130px;
 position:fixed;
 display: none;
+z-index: 2;
 }
 
 .sidenav a{
 color:grey;
-font-size: 10px;
+font-size: 12px;
 }
 
 
