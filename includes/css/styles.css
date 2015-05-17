@@ -110,7 +110,7 @@ color: #FFF;
 {
 	padding-left: 35px;
     background:none;
-    font-style: italic;
+    
     
 }
 
@@ -150,6 +150,11 @@ font-size: 12px;
     display: none;
 }
 
+
+#testimonial > p {
+font-size: 12px;
+text-align: justify;
+}
 
 footer {
 	background: #333;
