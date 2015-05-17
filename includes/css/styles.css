@@ -146,6 +146,10 @@ color:grey;
 font-size: 12px;
 }
 
+#youtube-small,#youtube-small,#youtube-big{
+    display: none;
+}
+
 
 footer {
 	background: #333;
@@ -248,6 +252,13 @@ div.deschome {
     #side-navpanel{
     display: none;
     }
+    
+    #youtube-big,#youtube-medium{
+    display: none;
+    }
+     #youtube-small{
+    display: block;
+    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -262,6 +273,13 @@ div.deschome {
     #side-navpanel{
     display: none;
     }
+    #youtube-medium,#youtube-small{
+    display: none;
+    }
+    #youtube-small{
+    display: block;
+    }
+   
     
     
 }
@@ -270,7 +288,12 @@ div.deschome {
 /* Large desktop */
 @media (min-width: 1200px) {
     
-    
+    #youtube-small,#youtube-medium{
+    display: none;
+    }
+    #youtube-big{
+    display: block;
+    }
     
 }
 
