@@ -14,10 +14,10 @@ var $navbar = $('.navbar');
 
 
 $(document).scroll(function() {
-    $sidenav.css({display: $(this).scrollTop()>200 ? "block":"none"});
+    $sidenav.css({display: $(this).scrollTop()>220 ? "block":"none"});
     //$navbar.css({height: $(this).scrollTop()>200 ? "40px":"80px"});
     
-    if ($('body').height() -100 <= ($(window).height() + $(window).scrollTop())) {
+    if ($('body').height() -125 <= ($(window).height() + $(window).scrollTop())) {
            $('.sidenav').hide();
        }
     

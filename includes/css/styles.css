@@ -262,6 +262,10 @@ div.deschome {
     #side-navpanel{
     display: none;
     }
+    #youtube-videos{
+    width: 320px;
+    }
+    
     
 }
     
