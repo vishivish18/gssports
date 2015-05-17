@@ -60,6 +60,25 @@ div.desc{
     text-shadow: 2px 2px #000;
 }
 
+div.deschome{
+    background-color: none;
+    bottom: 0;
+    color: #fff;
+    left: 35%;
+    top:45%;
+    position: absolute;
+    width: 100%;
+    font-size: 62px;
+    font-weight: 400;
+    text-shadow: 2px 2px #000;
+}
+
+div.deschome :hover {
+font-size: 72px;
+
+}
+
+
 
 .navbar
 {
@@ -203,6 +222,10 @@ text-align: left;
 div.desc {
 		font-size: 14px;
 	}
+    
+div.deschome {
+		font-size: 32px;
+	}    
     #side-navpanel{
     display: none;
     }
@@ -213,6 +236,10 @@ div.desc {
     div.desc {
 		font-size: 14px;
 	}
+    div.desc {
+		font-size: 32px;
+	}
+    
     #side-navpanel{
     display: none;
     }
