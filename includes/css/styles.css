@@ -187,10 +187,20 @@ text-align: left;
 
 .carousel-caption {
 	font-size: 24px;
+    text-shadow: 2px 2px #000;
 }
 
 .carousel-caption h4 {
 	font-size: 32px;
+    text-shadow: 2px 2px #000;
+}
+
+.carousel-control.right{
+right: 16px;
+}
+
+.carousel-control.left{
+left: 16px;
 }
 
 #myCarousel .item { height: 400px; }
