@@ -262,9 +262,6 @@ div.deschome {
     #side-navpanel{
     display: none;
     }
-    #youtube-videos{
-    width: 320px;
-    }
     
     
 }
@@ -272,6 +269,8 @@ div.deschome {
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    
+    
     
 }
 
