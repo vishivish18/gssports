@@ -105,6 +105,18 @@ color: #FFF;
 	border:none;
 }
 
+.sidenav{
+
+right:22%;
+top:130px;
+position:fixed;
+display: none;
+}
+
+.sidenav a{
+color:grey;
+font-size: 10px;
+}
 
 
 footer {
@@ -159,13 +171,17 @@ text-align: left;
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+div.desc {
+		font-size: 14px;
+	}
     
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-    
+    div.desc {
+		font-size: 14px;
+	}
 }
     
 

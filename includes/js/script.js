@@ -9,12 +9,10 @@ Notes:	 Hand coded for Udemy.com
 
 */
 
-
-$(function(){
-  $('#alertme').click(function(e){
-    e.preventDefault();
-      
-      $('#successAlert').slideDown();
-  });
-
-});
+var $sidenav = $('.sidenav');
+$(document).scroll(function() {
+    $sidenav.css({display: $(this).scrollTop()>200 ? "block":"none"});
+    if ($('body').height() -100 <= ($(window).height() + $(window).scrollTop())) {
+           $('.sidenav').hide();
+       }
+});    
