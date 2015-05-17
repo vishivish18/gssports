@@ -231,6 +231,30 @@ left: 16px;
 }
 
 
+/*-------2nd Carousel for Print media ------*/
+#myCarousel2 {
+	margin-top: 0px;
+}
+
+
+#myCarousel2 .item { height: 400px; }
+
+#slide12 {
+	background: url('../../images/printmedia1.jpg') top center no-repeat;
+}
+
+#slide22 {
+	background: url('../../images/printmedia2.png') top center no-repeat;
+}
+
+#slide32 {
+	background: url('../../images/printmedia3.jpg') top center no-repeat;
+}
+
+
+
+
+
 
 /* --------------------------------------
    Global Styles
