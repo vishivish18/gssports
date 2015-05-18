@@ -3,9 +3,9 @@
 My Custom JS
 ============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+Author    : Vishal R  (http://www.vishalranjan.in)
+Designeer : Sankalp S (http://wwww.sankalpsinha.com)
+Updated   : May 2015
 
 */
 
