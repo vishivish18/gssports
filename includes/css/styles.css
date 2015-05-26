@@ -44,6 +44,10 @@ body
     padding-right: 0px;
 }
 
+.landingimage{
+width: 100%;
+}
+
 .col-sm-4>li{
     text-decoration: none;         
 }
@@ -166,6 +170,11 @@ footer {
 }
 
 
+.footerul{
+padding-left: 0px;
+margin-left: 0px;
+}
+
 a {
   color: #FFF;
   text-decoration: none;
@@ -257,10 +266,6 @@ left: 16px;
 #slide32 {
 	background: url('../../images/printmedia3.jpg') top center no-repeat;
 }
-
-
-
-
 
 
 /* --------------------------------------
